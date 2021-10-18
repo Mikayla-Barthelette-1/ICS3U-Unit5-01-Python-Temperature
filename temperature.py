@@ -19,7 +19,7 @@ def calculate_fahrenheit():
     except Exception:
         print("Invalid input")
     finally:
-        print("\nDone.")
+        None
 
 
 def main():
@@ -27,6 +27,7 @@ def main():
 
     # call functions
     calculate_fahrenheit()
+    print("\nDone.")
 
 
 if __name__ == "__main__":
